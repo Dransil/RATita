@@ -1,6 +1,9 @@
-import socket #Esta librería permite la conexión entre un cliente y un servidor
-import subprocess #Esta librería permite ejecutar ejecutar comandos, enviar datos de entrada o recibir de salida
-import os #Esta librería da funciones para poder interactuar con el sistema operativo
+#Esta librería permite la conexión entre un cliente y un servidor
+import socket 
+#Esta librería permite ejecutar ejecutar comandos, enviar datos de entrada o recibir de salida
+import subprocess 
+ #Esta librería da funciones para poder interactuar con el sistema operativo
+import os
 
 def ejecutar_comando(command):
     if command.lower().startswith('cd'): #Comando para moverse entre directorios
